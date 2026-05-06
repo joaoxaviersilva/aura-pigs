@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --color-farm-50: #fbf7ec;
+    --color-farm-100: #f2e8cd;
+    --color-farm-200: #e5d39f;
+    --color-farm-300: #caaa6a;
+    --color-farm-400: #9b783e;
+    --color-farm-500: #75582f;
+    --color-farm-600: #5b4327;
+    --color-farm-700: #493521;
+    --color-farm-800: #362719;
+    --color-farm-900: #261b11;
+    --color-pasture-50: #f1f7ea;
+    --color-pasture-100: #dceccf;
+    --color-pasture-200: #bed8a5;
+    --color-pasture-300: #97bd72;
+    --color-pasture-400: #71994f;
+    --color-pasture-500: #55783a;
+    --color-pasture-600: #405f2c;
+    --color-pasture-700: #334b25;
+    --color-pasture-800: #26391d;
+    --color-pasture-900: #192713;
+    --color-barn-50: #fff4ed;
+    --color-barn-100: #f8dccb;
+    --color-barn-200: #efb794;
+    --color-barn-300: #dc865b;
+    --color-barn-400: #bd5d35;
+    --color-barn-500: #984326;
+    --color-barn-600: #78341f;
+    --color-barn-700: #612c1d;
+    --color-barn-800: #482116;
+    --color-barn-900: #31160f;
+}
